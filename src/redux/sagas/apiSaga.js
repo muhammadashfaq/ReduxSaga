@@ -2,7 +2,6 @@ import { takeEvery, call, put, all } from "redux-saga/effects";
 import axios from "axios";
 import * as types from "../actions/actionTypes";
 import {
-  requestDog,
   requestDogSuccess,
   requestDogError
 } from "../actions/actions";
